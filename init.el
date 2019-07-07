@@ -107,6 +107,9 @@
 (setq shell-file-name "bash")
 (setq shell-command-switch "-ic")
 
+;;    make cursor more visible
+(set-cursor-color 'white)
+
 (desktop-save-mode 1)
 
 (custom-set-variables
